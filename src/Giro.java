@@ -19,5 +19,7 @@ public class Giro extends Rekening {
     public void cetakInfo() {
         super.cetakInfo();
         System.out.println("      Giro, batas overdraft " + formatRupiah(batasOverdraft));
+        // System.out.println(nomor);
+        // Pesan error: nomor has private access in Rekening
     }
 }
